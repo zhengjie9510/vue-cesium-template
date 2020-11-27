@@ -1,10 +1,29 @@
 # vue-cesium
 
-> A Vue.js project
+## Vue Cli 3.0+ 版本
+[https://github.com/zhengjie9510/vue-cesium-template/tree/master](https://github.com/zhengjie9510/vue-cesium-template/tree/master)  
 
-## Build Setup
+### Project setup
+```
+# install dependencies
+npm install
 
-``` bash
+# Compiles and hot-reloads for development
+npm run serve
+
+# Compiles and minifies for production
+npm run build
+
+# Lints and fixes files
+npm run lint
+```
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
+
+## Vue Cli 2.X 版本
+[https://github.com/zhengjie9510/vue-cesium-template/tree/vue-cli2.x](https://github.com/zhengjie9510/vue-cesium-template/tree/vue-cli2.x)
+### Project setup
+```
 # install dependencies
 npm install
 
@@ -17,5 +36,5 @@ npm run build
 # build for production and view the bundle analyzer report
 npm run build --report
 ```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+## Vue + Cesium 配置过程
+[https://zhengjie9510.github.io/2020/11/26/vue-cesium-configure/](https://zhengjie9510.github.io/2020/11/26/vue-cesium-configure/)
