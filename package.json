@@ -34,7 +34,10 @@
     "parserOptions": {
       "parser": "babel-eslint"
     },
-    "rules": {}
+    "rules": {},
+    "globals": {
+      "Cesium": true
+    }
   },
   "browserslist": [
     "> 1%",
