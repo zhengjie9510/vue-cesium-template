@@ -8,7 +8,7 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
-    "cesium": "*",
+    "cesium": "^1.75.0",
     "core-js": "^3.6.5",
     "vue": "^2.6.11"
   },
@@ -19,7 +19,6 @@
     "babel-eslint": "^10.1.0",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^6.2.2",
-    "vue-cli-plugin-cesium": "~1.1.7",
     "vue-template-compiler": "^2.6.11"
   },
   "eslintConfig": {
@@ -34,10 +33,7 @@
     "parserOptions": {
       "parser": "babel-eslint"
     },
-    "rules": {},
-    "globals": {
-      "Cesium": true
-    }
+    "rules": {}
   },
   "browserslist": [
     "> 1%",
