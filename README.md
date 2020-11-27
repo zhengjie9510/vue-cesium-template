@@ -36,3 +36,5 @@ npm run build
 # build for production and view the bundle analyzer report
 npm run build --report
 ```
+## Vue + Cesium 配置过程
+[https://zhengjie9510.github.io/2020/11/26/vue-cesium-configure/](https://zhengjie9510.github.io/2020/11/26/vue-cesium-configure/)
