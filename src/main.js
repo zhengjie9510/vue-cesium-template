@@ -4,17 +4,6 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 
-//CommonJS style require
-//新版本的 cesium 不支持以前的 import 方式导入
-var Cesium = require('cesium/Cesium');
-var widgets = require('cesium/Widgets/widgets.css');
-//
-
-//此处将cesium 赋给全局
-Vue.prototype.Cesium = Cesium
-Vue.prototype.widgets = widgets
-//
-
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
